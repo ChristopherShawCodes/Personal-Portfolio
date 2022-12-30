@@ -1,0 +1,49 @@
+
+.top-container{
+    position: relative;
+    display: flex;
+    height: 6rem;
+    border-bottom: 2px solid var(--teal);
+    width: 100%;
+    z-index: 1;
+}
+
+.logo{
+    height: 100%;
+    position: absolute;
+    scale: 2.2;
+    left: 15%;
+    margin-top: 1rem;
+}
+
+.name{
+    letter-spacing: 2px;
+    color: var(--teal);
+    font-weight: 400;
+    margin-top: 3.5rem;
+    font-size: 1.4rem;
+    position: absolute;
+    left: 20rem;
+    cursor: default;
+}
+
+.chris{
+    background-color: transparent;
+}
+
+.contact-container{
+    background-color: var(--teal);
+    width: 10%;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    cursor: pointer;
+}
+
+.contact-text{
+    text-align: center;
+    background-color: transparent;
+    color: var(--white);
+    font-size: 2rem;
+    transform: translateY(50%);
+}
