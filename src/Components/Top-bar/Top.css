@@ -47,3 +47,36 @@
     font-size: 2rem;
     transform: translateY(50%);
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 540px) {
+    .logo{
+        display: none;
+    }
+    .name{
+        width: 100%;
+        left: 40%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+   
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .contact-container{
+        display: none;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}

@@ -41,27 +41,22 @@
     bottom: 27%;
     transform: translateX(45%);
     background-color: transparent;
-    max-width: 15rem;
+    max-width: 16rem;
+    max-height: 18rem;
     right: 0;
 }
 
 .linkedIn, .twitter{
     width: 50%;
+    max-height: 10rem;
+    transform: translateX(-15%);
 }
 
-.linkedIn{
-    margin-right: 1%;
-    border-left: 1px solid var(--teal);
-}
 
-.twitter{
-    border-left: 1px solid var(--teal);
-
-}
 .linkedIn:hover,.twitter:hover{
     cursor: pointer;
     border-right: 1px solid var(--white);
-    transform: translateX(-15%);
+    scale: 1.03;
 }
 
 

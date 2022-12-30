@@ -9,7 +9,8 @@ import {
 
 import { NavLink } from 'react-router-dom';
 import linkedIn from './Img/linkedin.png'
-import twitter from './Img/twitter.png'
+import link from './Img/link.png'
+
 
 
 
@@ -37,8 +38,12 @@ const Nav = () => {
               <CDBSidebarMenuItem icon="address-card" className='menu-item' title='contact'>Contact</CDBSidebarMenuItem>
             </NavLink>
             <div className='icon-container'>
-              <img src={linkedIn} alt='linkedIn' className='linkedIn'></img>
-              <img src={twitter} alt='twitter' className='twitter'></img>
+              <a href='https://www.linkedin.com/in/christophercodes/' target='_blank' title='linked in'>
+                <img src={linkedIn} alt='linkedIn' className='linkedIn' target="_blank"></img>
+              </a>
+              <a href='https://linktr.ee/framedgames' target='_blank' title='twitter'>
+                <img src={link} alt='twitter' className='twitter'></img>
+              </a>
             </div>
 
           </CDBSidebarMenu>
