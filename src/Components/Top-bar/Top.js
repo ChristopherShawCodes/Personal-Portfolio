@@ -9,7 +9,7 @@ const Top = () => {
     <img  src={logo} alt='logo' className='logo'></img>
         <h2 className='name '><span className='chris'>Chris</span>topher Shaw</h2>
         <div className='contact-container'>
-          <p className='contact-text'>Contact</p>
+          <a href='https://www.linkedin.com/in/christophercodes/' className='contact-text'>Contact</a>
         </div>
     </div>
   )

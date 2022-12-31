@@ -1,11 +1,55 @@
 
 .home-container{
-    height: 100vh;
-    width: 100vw;
+    height: auto;
+    width: 100%;
     position: relative;
+    margin-left: 6.5%;
 }
 
-.home-container h1{
-    position: absolute;
-    background-color: transparent;
+.intro-container{
+    height: 70vh;
+    border-bottom: 2px solid var(--teal);
+    width: 100%;
+}
+
+.intro-left{
+   border-right: 2px solid var(--teal);
+   text-align: center;
+   color: #fff;
+}
+
+.intro-right{
+
+}
+
+.middle-container{
+    height: 120vh;
+    border-bottom: 2px solid var(--teal);
+}
+
+.image-card{
+    border: 0.7px solid var(--teal);
+    height: 50vh;
+}
+
+.lower-contact-container{
+    border: 2px solid var(--teal);
+    margin-left: 1%;
+    height: 50vh;
+    text-align: center;
+    overflow: hidden;
+}
+
+.lower-contact-container h1{
+    padding-top: 4rem;
+    background-color: var(--teal);
+    height: 100%;
+    width: 100%;
+}
+
+.footer{
+    height: 6vh;
+    text-align: center;
+    margin-top: 2rem;
+    color: var(--white);
 }
