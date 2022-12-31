@@ -22,6 +22,7 @@
 
 .scrollable{
     transform: translateX(-10%);
+    opacity: 0.7;
 }
 
 .scroll-up {

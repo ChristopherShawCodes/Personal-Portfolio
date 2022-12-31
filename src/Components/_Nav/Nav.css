@@ -10,28 +10,33 @@
     width: auto;
     max-width: 16.5rem;
     scale: 1.4;
-    padding-left: 1rem;
     z-index: 1;
 }
 
 .nav-menu{
     color: var(--teal);
     margin-top: 0.9rem;
-    border-radius: 50%;
+    border: none;
+    height: 11.3%;
+    scale: 1.1;
+    margin-left: 0.5rem;
 }
 
 .nav-menu:hover{
-    scale: 1.02;
+    scale: 1.15;
 }
 
 
+
+
 .menu-item{
+    transform: translateX(27%);
     border-bottom: 1px solid var(--teal);
     width: 70%;
 }
 
 .menu-item:hover{
-    transform: translateX(10%);
+    transform: translateX(5%);
 }
 
 .icon-container{
@@ -44,6 +49,8 @@
     max-height: 20rem;
     text-align: center;
     bottom: 0;
+    transform: translateX(20%);
+
 }
 
 .linkedIn, .links{
@@ -56,7 +63,7 @@
 
 .linkedIn:hover,.links:hover{
     cursor: pointer;
-    border-right: 1px solid var(--white);
+    border-left: 1px solid var(--white);
     scale: 1.4;
 }
 
