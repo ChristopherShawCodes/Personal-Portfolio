@@ -1,8 +1,9 @@
 
 .about-container{
     height: 300vh;
-    width: 100vw;
+    width: 100%;
     position: relative;
+    overflow-x: hidden ;
 }
 
 .about-top-container{

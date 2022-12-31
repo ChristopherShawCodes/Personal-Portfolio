@@ -31,10 +31,12 @@ const About = () => {
         </div>
       </div>
       
-
-      <div className='container-fluid'>
-        <div className='about-middle-container row '></div>
-      </div>
+        <div className='about-middle-container row '>
+          <div className='image-container col-6 mx-auto'>
+            
+          </div>
+        </div>
+  
 
       <div className='about-lower-container row'>
 
