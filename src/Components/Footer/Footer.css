@@ -1,0 +1,8 @@
+
+.footer{
+    height: 5vh;
+    text-align: center;
+    margin-left: 14%;
+    margin-top: 1rem;
+    color: var(--white);
+}
