@@ -10,11 +10,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: var(--gray);
   overflow-x: hidden;
 }
 
 .App{
+
+  background-color: var(--gray);
   height: 100vh;
   width: 100%;
 }

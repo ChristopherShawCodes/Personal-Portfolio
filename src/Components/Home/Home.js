@@ -5,20 +5,17 @@ const Home = () => {
   return (
     <div className='home-container'>
       <div className='row intro-container'>
-        <div className='col-4 intro-left'>
-        <div className='intro-left-container'></div>
-          <img src={scrollable} alt='scrollable' className='scrollable'></img>
+
+        <div className='col-4 intro-left scroll-up'>
+          <div className='intro-left-container inner'>
+            <img src={scrollable} alt='scrollable' className='scrollable'></img>
+          </div>
         </div>
+
         <div className='col-8 intro-right'>
-          <p>short description about me</p>
-
-<div className='container'>
-
-
-  
-</div>
-
-
+          <div className='container'>
+            <p>short description about me</p>
+          </div>
         </div>
       </div>
 

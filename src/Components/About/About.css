@@ -1,0 +1,40 @@
+
+.about-container{
+    height: 300vh;
+    width: 100vw;
+    position: relative;
+}
+
+.about-top-container{
+    height: 59vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+
+
+.me-image{
+    height: 100%;
+    width: 100%;
+    transform: translateX(10%);
+}
+
+.about-top-right{
+    text-align: center;
+    color: var(--teal);
+}
+
+.about-top-right h1{
+    font-size: 4rem;
+    margin-top: 1rem;
+}
+
+.about-top-right p{
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.about-middle-container{
+    border: 1px solid var(--teal);
+    width: 100vw;
+}

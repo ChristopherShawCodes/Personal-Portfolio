@@ -1,8 +1,20 @@
 
 .footer{
     height: 5vh;
-    text-align: center;
-    margin-left: 14%;
-    margin-top: 1rem;
     color: var(--white);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    margin-left: 1%;
+    border: 1px solid var(--teal);
+    border-bottom: none;
+    text-align: end;
+    background-color: var(--gray);
+}
+
+.footer p{
+    font-size: large;
+    padding-right: 3rem;
+    margin-top: 0.4rem;
+    cursor: default;
 }

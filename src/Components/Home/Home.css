@@ -25,14 +25,14 @@
 }
 
 .scroll-up {
-    height: 300px;	
+    height: 70vh;	
     overflow: hidden;
     position: relative;
    }
    .scroll-up .inner {
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 2600px;
     margin: 0;
     line-height: 50px;
     text-align: center;
@@ -41,9 +41,9 @@
     -webkit-transform:translateY(100%);	
     transform:translateY(100%);
     /* Apply animation to this element */	
-    -moz-animation: scroll-up 15s linear infinite;
-    -webkit-animation: scroll-up 15s linear infinite;
-    animation: scroll-up 15s linear infinite;
+    -moz-animation: scroll-up 50s linear infinite;
+    -webkit-animation: scroll-up 50s linear infinite;
+    animation: scroll-up 50s linear infinite;
    }
    /* Move it (define the animation) */
    @-moz-keyframes scroll-up {
@@ -51,14 +51,14 @@
     100% { -moz-transform: translateY(-100%); }
    }
    @-webkit-keyframes scroll-up {
-    0%   { -webkit-transform: translateY(100%); }
+    0%   { -webkit-transform: translateY(-100%); }
     100% { -webkit-transform: translateY(-100%); }
    }
    @keyframes scroll-up {
     0%   { 
-    -moz-transform: translateY(100%); /* Browser bug fix */
-    -webkit-transform: translateY(100%); /* Browser bug fix */
-    transform: translateY(100%); 		
+    -moz-transform: translateY(30%); /* Browser bug fix */
+    -webkit-transform: translateY(30%); /* Browser bug fix */
+    transform: translateY(30%); 		
     }
     100% { 
     -moz-transform: translateY(-100%); /* Browser bug fix */
