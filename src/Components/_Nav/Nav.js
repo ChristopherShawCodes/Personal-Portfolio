@@ -37,10 +37,10 @@ const Nav = () => {
               <CDBSidebarMenuItem icon="address-card" className='menu-item' title='contact'>Contact</CDBSidebarMenuItem>
             </NavLink>
             <div className=' container icon-container'>
-              <a href='https://www.linkedin.com/in/christophercodes/' target='_blank' title='linked in'>
+              <a href='https://www.linkedin.com/in/christophercodes/' target='_blank' rel="noreferrer" title='linked in'>
                 <img src={linkedIn} alt='linkedIn' className='linkedIn' target="_blank"></img>
               </a>
-              <a href='https://linktr.ee/framedgames' target='_blank' title='more links'>
+              <a href='https://linktr.ee/framedgames' target='_blank' rel="noreferrer" title='more links'>
                 <img src={link} alt='links' className='links'></img>
               </a>
             </div>

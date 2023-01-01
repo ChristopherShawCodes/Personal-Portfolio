@@ -11,7 +11,7 @@ const Top = () => {
         <h2 className='name '><span className='chris'>Chris</span>topher Shaw</h2>
       </a>
       <div className='contact-container'>
-        <a href='https://www.linkedin.com/in/christophercodes/' target='_blank' className='contact-text'>Contact</a>
+        <a href='https://www.linkedin.com/in/christophercodes/' target='_blank' rel="noreferrer" className='contact-text'>Contact</a>
       </div>
     </div>
   )

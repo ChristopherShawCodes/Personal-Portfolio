@@ -10,7 +10,7 @@
     width: auto;
     max-width: 16.5rem;
     scale: 1.4;
-    z-index: 1;
+    z-index: 100;
 }
 
 .nav-menu{
@@ -25,9 +25,6 @@
 .nav-menu:hover{
     scale: 1.15;
 }
-
-
-
 
 .menu-item{
     transform: translateX(27%);

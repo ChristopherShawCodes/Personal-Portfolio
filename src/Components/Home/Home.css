@@ -3,7 +3,7 @@
     height: auto;
     width: 100%;
     position: relative;
-    margin-left: 6.5%;
+    margin-left: 2%;
 }
 
 .intro-container{
@@ -76,10 +76,9 @@
 .middle-container{
     height: 120vh;
     text-align: center;
-    border-bottom: 2px solid var(--teal);
+    border-bottom: 4px solid var(--teal);
     padding-top: 5rem;
     color: var(--teal);
-
 }
 
 .middle-container a{
@@ -88,10 +87,31 @@
 }
 
 .image-card{
-    border: 0.7px solid var(--teal);
-    height: 50vh;
+    height: 60vh;
     text-align: center;
     color: var(--teal);
+    background-size: cover;
+}
+
+.image-card:hover{
+    scale: 1.05;
+    cursor: pointer;
+}
+
+.home-image{
+    height: 100%;
+    width: 110%;
+    transform: translateX(-2%);
+}
+
+.detective{
+    transform: translateX(-4%);
+    box-shadow: 1px 1px 18px 1px black;
+}
+
+.western{
+    box-shadow: 1px 1px 18px 1px black;
+    transform: translateX(-2%);
 }
 
 

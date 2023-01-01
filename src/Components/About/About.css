@@ -1,22 +1,90 @@
 
+
+a{
+    color: var(--white);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+a:hover{
+    color: var(--white);
+}
+
 .about-container{
-    height: 300vh;
+    height: 330vh;
     width: 100%;
     position: relative;
     overflow-x: hidden ;
 }
 
+.about-button{
+    border: 1px solid var(--white);
+    width: 7rem;
+    height: 6rem;
+    position: absolute;
+    left: 21%;
+    bottom: 18%;
+    color: var(--teal);
+    overflow: hidden;
+    background-color: var(--teal);
+}
+
+.about-button:hover{
+    background-color: var(--teal);
+    box-shadow: none;
+    border: 2px solid var(--white);
+}
+
+.about-western-1{
+    transform: translateY(140%);
+}
+
+.about-comic-1{
+    transform: translateY(280%);
+}
+
+.about-detective-2{
+    transform: translateX(120%);
+}
+
+.about-detective-3{
+    transform: translateX(240%);
+}
+
 .about-top-container{
     height: 59vh;
     width: 100vw;
+    position: relative;
     overflow: hidden;
+    border: 1px solid var(--teal);
+    box-shadow: 1px 1px 18px 1px var(--black);
 }
 
 
+.about-text-container{
+    position: absolute;
+    left: 21%;
+    top: 15%;
+    border: 1px solid var(--white);
+    width: 40%;
+    height: 18rem;
+    color: var(--teal);
+    cursor: default;
+}
+
+.about-text-container h2{
+    font-size: 4rem;
+}
+
+
+.about-text-container p{
+    font-size: 1.5rem;
+}
 
 .me-image{
     height: 100%;
-    width: 100%;
+    position: absolute;
+    width: auto;
     transform: translateX(10%);
 }
 
@@ -35,7 +103,151 @@
     font-weight: 300;
 }
 
-.about-middle-container{
+.empty-container{
+    height: 20vh;
+    
+    transform: translateX(0.8%);
+    opacity: 0.8;
+}
+
+.about-comic-container{
     border: 1px solid var(--teal);
     width: 100vw;
+    position: relative;
+    height: 85vh;
+    overflow: hidden;
+    box-shadow: 1px 1px 18px 1px var(--black);
+
+}
+
+.comic-img{
+    position: absolute;
+    height: 70%;
+    width: auto;
+    right: 2rem;
+    bottom: 15%;
+    box-shadow: 1px 1px 14px 1px black;
+}
+
+.comic-img:hover{
+    scale: 1.05;
+}
+
+.about-western-container{
+    border: 1px solid var(--teal);
+    width: 100vw;
+    position: relative;
+    height: 85vh;
+    overflow: hidden;
+    box-shadow: 1px 1px 18px 1px var(--black);
+
+}
+
+.western-img{
+    position: absolute;
+    height: 70%;
+    width: auto;
+    right: 2rem;
+    bottom: 15%;
+    box-shadow: 1px 1px 14px 1px black;
+}
+
+.western-img:hover{
+    scale: 1.05;
+}
+
+.about-detective-container{
+    border: 1px solid var(--teal);
+    width: 100vw;
+    padding-top: 14rem;
+    position: relative;
+    height: 85vh;
+    overflow: hidden;
+    box-shadow: 1px 1px 18px 1px var(--black);
+
+}
+
+
+.detective-img{
+    position: absolute;
+    height: 70%;
+    width: auto;
+    right: 2rem;
+    bottom: 15%;
+    box-shadow: 1px 1px 14px 1px black;
+}
+
+.detective-img:hover{
+    scale: 1.05;
+}
+
+
+#margin{
+    margin-left: 0.5rem;
+    width: 95%;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 540px) {
+    .about-text-container{
+        width: 100%;
+
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .about-button{
+        border: 1px solid var(--white);
+        width: 4rem;
+        height: 6rem;
+        position: absolute;
+        left: 7rem;
+        bottom: 0.5rem;
+        color: var(--teal);
+        overflow: hidden;
+        background-color: var(--teal);
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .about-text-container{
+        position: absolute;
+        left: 15%;
+        top: 18%;
+        border: 1px solid var(--white);
+        width: 62%;
+        height: 22rem;
+        color: var(--teal);
+        cursor: default;
+    }
+
+    #dim-img{
+        left: 4rem;
+    }
+
+    .about-top-right{
+        text-align: center;
+        color: var(--teal);
+        transform: translateY(10%);
+        overflow-y: scroll;
+        padding-right: 5%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .me-image{
+        opacity: 0.1;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1300px) {
+    #dim-img{
+        opacity: 0.1;
+    }
 }

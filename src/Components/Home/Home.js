@@ -1,5 +1,8 @@
 import './Home.css'
 import scrollable from './Images/scrollable.png'
+import western from './Images/western.JPG'
+import detective from './Images/detective.JPG'
+import badGuy from './Images/bad-guy.JPG'
 
 const Home = () => {
   return (
@@ -23,15 +26,21 @@ const Home = () => {
         <div className='col-12 mx-auto'>
           <h4>Portfolio</h4>
           <p>a brief description about my portfolio</p>
-          <a href='#'>Visit Gallery</a>
+          <a href='/gallery'>Visit Gallery</a>
         </div>
       </div>
 
 
       <div className='row image-container'>
-        <div className=' image-card col-4 mx-auto'>img</div>
-        <div className=' image-card col-4 mx-auto'>img</div>
-        <div className=' image-card col-4 mx-auto'>img</div>
+        <div className=' image-card col-4 bad'>
+          <img src={badGuy} alt='comic' className='home-image'></img>
+        </div>
+        <div className=' image-card col-4 western'>
+          <img src={western} alt='western' className='home-image western'></img>
+        </div>
+        <div className=' image-card col-4 detective'>
+          <img src={detective} alt='detective' className='home-image'></img>
+        </div>
       </div>
 
       <div className='row lower-container'>
