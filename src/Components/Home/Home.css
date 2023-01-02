@@ -88,6 +88,7 @@
 
 .image-container{
     height: auto;
+    overflow: hidden;
 }
 
 .image-card{
@@ -126,7 +127,6 @@
     width: 100%;
     text-align: center;
     position: relative;
-    /* overflow: hidden; */
     color:var(--gray);
 }
 
@@ -138,19 +138,41 @@
     height: 100%;
 }
 
-.lower-contact-container p,
 .lower-contact-container h1,
 .email-button{
     background-color: transparent;
 }
 
-.email-button{
-    border: 1px solid var(--gray);
-    width: 30%;
-    margin: 0 auto;
-    padding: 1rem;
-    transform: translateY(120%);
-    cursor: pointer;
+.lower-contact-button{
+    position: relative;
+	 padding: 1.6em 2.8em;
+	 text-decoration: none;
+}
+
+
+.button__canvas {
+    --offset: 32px;
+    position: absolute;
+    top: calc(var(--offset) * -1);
+    left: calc(var(--offset) * -1);
+    width: calc(100% + var(--offset) * 2);
+    height: calc(100% + var(--offset) * 2);
+    transition: opacity 2s ease;
+}
+.button__text {
+    position: relative;
+    color: var(--gray);
+    font-weight: bold;
+    letter-spacing: 0.02em;
+    pointer-events: none;
+}
+.button:hover .button__canvas {
+    opacity: 0.85;
+    transition: opacity 0.2s ease;
+}
+.button:active .button__canvas {
+    opacity: 1;
+    transition: none;
 }
 
 
