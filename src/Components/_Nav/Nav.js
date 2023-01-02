@@ -21,7 +21,7 @@ const Nav = () => {
   return (
     <div className='nav-container' >
       <CDBSidebar toggled='false' textColor="rgb(34, 163, 159)" backgroundColor="rgb(67, 66, 66)">
-          <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>} className='nav-menu'></CDBSidebarHeader>
+          <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large nav-menu" ></i>} ></CDBSidebarHeader>
         <CDBSidebarContent >
           <CDBSidebarMenu className='sidebar-menu' >
             <NavLink exact to="#portfolio" className='menu-item' activeClassName="activeClicked">

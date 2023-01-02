@@ -74,7 +74,7 @@
 }
 
 .middle-container{
-    height: 120vh;
+    height: 70vh;
     text-align: center;
     border-bottom: 4px solid var(--teal);
     padding-top: 5rem;
@@ -86,11 +86,15 @@
     color: var(--teal);
 }
 
+.image-container{
+    height: auto;
+}
+
 .image-card{
-    height: 60vh;
-    text-align: center;
+    height: 100%;
     color: var(--teal);
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
 }
 
 .image-card:hover{
@@ -118,7 +122,7 @@
 
 .lower-container{
     border: 2px solid var(--teal);
-    height: 50vh;
+    height: 30vh;
     width: 100%;
     text-align: center;
     position: relative;
@@ -147,6 +151,34 @@
     padding: 1rem;
     transform: translateY(120%);
     cursor: pointer;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 540px) {
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+   
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .intro-left{
+        display: none;
+     }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
 }
 
 

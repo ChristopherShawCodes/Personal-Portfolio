@@ -63,12 +63,24 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 540px) {
+
+    .top-container{
+        position: absolute;
+        display: flex;
+        height: 4rem;
+        border-bottom: 2px solid var(--teal);
+        width: 100%;
+        z-index: 1;
+        background-color: var(--gray);
+        overflow: hidden;
+    }
     .logo{
         display: none;
     }
     .name{
         width: 100%;
         left: 40%;
+        margin-top: 2rem;
     }
 }
 
